@@ -12,15 +12,16 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://easonchill.github.io/"
+baseURL = "https://easonchill.dev"
 languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"
-title = "伊森書房 Eason Study"
+title = "伊森書房 EasonStudy"
 theme = "tranquilpeak"
-disqusShortname = "https://easonchill.github.io.website.com"
-# googleAnalytics = "UA-123-45"
+disqusShortname = "https-easonchill-github-io"
+googleAnalytics = "G-0X0HQSLYJ7"
 paginate = 7
 canonifyurls = true
+page_view_conter=true
 
 
 [permalinks]
@@ -35,18 +36,19 @@ canonifyurls = true
 # Markup
 # ------
 [markup]
+
   # Set startLevel = 1 to support # title (<h1>title</h1>) otherwise table of content is blank/empty
   [markup.tableOfContents]
     endLevel = 3
     ordered = false
     startLevel = 1
-
+    
 # ------
 # Author
 # ------
 [author]
-  name = "Eason Chill"
-  bio = "**Life** is the sum of all your choices."
+  name = "伊森 Eason"
+  bio = "角聲寒，夜闌珊，伊森書房透微光。"
   job = "QA"
   location = "Taiwan"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -120,7 +122,7 @@ canonifyurls = true
   # -----------
   # Description
   # -----------
-  description = "Hugo tranquilpeak theme demo"
+  description = "HI！歡迎來到伊森書房，無限加蓋中"
   page_view_conter =true
   # ------------------
   # Syntax highlighter
@@ -174,8 +176,8 @@ canonifyurls = true
   sidebarBehavior = 2
 
   # Customize link of author avatar in sidebar
-  #  [params.sidebar.profile]
-  #    url = "/#about"
+  #[params.sidebar.profile]
+  url = "/#aboutsss"
 
   # -------------------
   # Media configuration
@@ -383,6 +385,6 @@ canonifyurls = true
   # Footer configuration
   # --------------------
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
-  #  [params.footer]
-  #    copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
+    [params.footer]
+      copyright = "伊森 Eason"
 
